@@ -11,4 +11,3 @@ A simple and responsive login page built using PHP MySQL. It includes all CRUD o
 - Ensured basic user interface styling for better usability and responsiveness.
 - Included clean code structure to handle all CRUD operations efficiently.
 
---> Applying authentication for the user input
