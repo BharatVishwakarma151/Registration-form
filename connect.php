@@ -2,9 +2,9 @@
 // mysql_connect
 // mysqli_connect
 // PDO
-$conn = mysqli_connect('localhost','root','','crudoperation');
-// var_dump($conn);
-if(!$conn){
+$con = mysqli_connect('localhost','root','','crudoperation');
+// var_dump($con);
+if(!$con){
 //     echo "Connection Successfull";
 // }
 // else{
@@ -14,3 +14,4 @@ if(!$conn){
 
 
 ?> 
+
