@@ -43,6 +43,13 @@ $phone=$row['phone'];
 $place=$row['address'];
 $datetime=$row['date'];
 
+$username = html_entity_decode($username);
+$email = html_entity_decode($email);
+$place = html_entity_decode($place);
+$phone = html_entity_decode($phone);
+
+
+
 echo " <tr>
 <td>$i</td>
 <td>$username</td>
@@ -65,3 +72,4 @@ $i++;
       </table>
     </div>
     <?php include "./includes/footer.php"?>
+
